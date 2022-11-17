@@ -43,13 +43,6 @@ ul {
   margin: -1px;
 }
 
-button:hover,
-button:focus {
-  color: var(--color-just-white);
-  background-color: var(--color-text-action);
-  cursor: pointer;
-}
-
 .header-logo {
   font-family: Raleway, cursive;
   font-weight: 700;
@@ -100,6 +93,11 @@ button:focus {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.button-index:hover,
+.button-index:focus {
+  color: var(--color-just-white);
+  background-color: var(--color-text-action);
 }
 
 .advant-titles {
@@ -168,10 +166,42 @@ button:focus {
   line-height: 24px;
 }
 
+/* Портфолио */
 .button-portf {
   font-family: inherit;
+  cursor: pointer;
+  background-color: var(--background-color-third);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-portf:hover,
+.button-portf:focus {
+  color: var(--color-just-white);
+  background-color: var(--color-text-action);
+}
+
+.titles-gellery {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.texts-gallary {
+font-size: 16px;
+line-height: 1.87;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
