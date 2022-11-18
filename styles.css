@@ -1,3 +1,4 @@
+/* Rules */
 :root {
   --color-text-first: #212121;
   --color-text-second: #757575;
@@ -43,6 +44,7 @@ ul {
   margin: -1px;
 }
 
+/* Header */
 .header-logo {
   font-family: Raleway, cursive;
   font-weight: 700;
@@ -71,6 +73,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
+/* Hero */
 .hero-section {
   background-color: var(--background-color-second);
 }
@@ -84,9 +87,10 @@ ul {
   text-transform: uppercase;
 }
 .button-index {
+  color: var(--color-text-first);
+  background-color: var(--background-color-third);
   font-family: inherit;
   cursor: pointer;
-  background-color: var(--background-color-third);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -100,6 +104,7 @@ ul {
   background-color: var(--color-text-action);
 }
 
+/* Our advantages */
 .advant-titles {
   font-weight: 700;
   font-size: 14px;
@@ -112,6 +117,7 @@ ul {
   line-height: 1.71;
 }
 
+/* What are we doing */
 .wawd-title {
   font-weight: 700;
   font-size: 36px;
@@ -119,6 +125,7 @@ ul {
   text-align: center;
 }
 
+/* Our team */
 .our-team-section {
   background-color: var(--background-color-third);
 }
@@ -139,10 +146,10 @@ ul {
   line-height: 1.19;
 }
 
+/* Footer */
 .footer {
   background-color: var(--background-color-second);
 }
-
 .footer-logo {
   font-family: Raleway, cursive;
   font-weight: 700;
@@ -166,11 +173,12 @@ ul {
   line-height: 24px;
 }
 
-/* Портфолио */
+/* Portfolio */
 .button-portf {
+  color: var(--color-text-first);
+  background-color: var(--background-color-third);
   font-family: inherit;
   cursor: pointer;
-  background-color: var(--background-color-third);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -181,27 +189,13 @@ ul {
   color: var(--color-just-white);
   background-color: var(--color-text-action);
 }
-
 .titles-gellery {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .texts-gallary {
-font-size: 16px;
-line-height: 1.87;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  font-size: 16px;
+  line-height: 1.87;
 }
