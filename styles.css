@@ -184,7 +184,6 @@ ul {
 }
 .gallery-text {
   color: var(--color-text-second);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
