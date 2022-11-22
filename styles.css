@@ -104,6 +104,7 @@ ul {
 
 /* Our advantages */
 .advant-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -123,12 +124,12 @@ ul {
 .our-team-section {
   background-color: var(--background-color-third);
 }
-.team-titles {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.team-texts {
+.team-text {
   color: var(--color-text-second);
   font-size: 16px;
   line-height: 1.19;
@@ -144,6 +145,9 @@ ul {
   font-size: 26px;
   line-height: 1.19;
 }
+address{
+  font-style: normal;
+}
 .first-part-flogo {
   color: var(--color-text-action);
 }
@@ -154,6 +158,7 @@ ul {
   color: var(--background-color-first);
   font-style: normal;
   line-height: 1.71;
+  text-decoration: none;
 }
 .footer-address {
   color: var(--color-text-third);
@@ -177,7 +182,6 @@ ul {
   background-color: var(--color-text-action);
 }
 .gallery-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
